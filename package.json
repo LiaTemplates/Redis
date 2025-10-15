@@ -1,0 +1,29 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LiaTemplates/Redis#readme",
+  "bugs": {
+    "url": "https://github.com/LiaTemplates/Redis/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiaTemplates/Redis.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "build": "npx parcel build src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "ioredis-mock": "^7.5.1",
+    "parcel": "^2.16.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "url": "^0.11.4"
+  }
+}
